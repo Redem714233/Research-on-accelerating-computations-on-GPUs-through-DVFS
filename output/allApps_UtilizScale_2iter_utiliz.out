@@ -1,0 +1,718 @@
+Initializing...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+M: 4096 (16 x 256)
+N: 4096 (16 x 256)
+K: 4096 (16 x 256)
+Preparing data for GPU...
+Required shared memory size: 64 Kb
+2025-11-20 15:41:22
+Computing... using high performance kernel compute_gemm 
+loop 0
+loop 1000
+loop 2000
+loop 3000
+loop 4000
+loop 5000
+loop 6000
+loop 7000
+loop 8000
+loop 9000
+loop 10000
+loop 11000
+loop 12000
+loop 13000
+loop 14000
+loop 15000
+loop 16000
+loop 17000
+loop 18000
+loop 19000
+loop 20000
+loop 21000
+loop 22000
+loop 23000
+loop 24000
+loop 25000
+loop 26000
+loop 27000
+loop 28000
+loop 29000
+loop 30000
+loop 31000
+loop 32000
+loop 33000
+loop 34000
+loop 35000
+loop 36000
+loop 37000
+loop 38000
+loop 39000
+loop 40000
+loop 41000
+loop 42000
+loop 43000
+loop 44000
+loop 45000
+loop 46000
+loop 47000
+loop 48000
+loop 49000
+2025-11-20 15:45:31
+Time: 248655.265625 ms
+TFLOPS: 27.64
+cudaTensorCoreGemm test end.
+=====================================
+Iteration 0:
+Application name: cudaTensorCoreGemm
+Initializing...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+M: 4096 (16 x 256)
+N: 4096 (16 x 256)
+K: 4096 (16 x 256)
+Preparing data for GPU...
+Required shared memory size: 64 Kb
+2025-11-20 15:45:52
+Computing... using high performance kernel compute_gemm 
+loop 0
+loop 1000
+loop 2000
+loop 3000
+loop 4000
+loop 5000
+loop 6000
+loop 7000
+loop 8000
+loop 9000
+loop 10000
+loop 11000
+loop 12000
+loop 13000
+loop 14000
+loop 15000
+loop 16000
+loop 17000
+loop 18000
+loop 19000
+loop 20000
+loop 21000
+loop 22000
+loop 23000
+loop 24000
+loop 25000
+loop 26000
+loop 27000
+loop 28000
+loop 29000
+loop 30000
+loop 31000
+loop 32000
+loop 33000
+loop 34000
+loop 35000
+loop 36000
+loop 37000
+loop 38000
+loop 39000
+loop 40000
+loop 41000
+loop 42000
+loop 43000
+loop 44000
+loop 45000
+loop 46000
+loop 47000
+loop 48000
+loop 49000
+2025-11-20 15:49:55
+Time: 243480.906250 ms
+TFLOPS: 28.22
+cudaTensorCoreGemm test end.
+Application name: sortingNetworks
+./sortingNetworks Starting...
+
+Starting up CUDA context...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+Allocating and initializing host arrays...
+
+Allocating and initializing CUDA arrays...
+
+Running GPU bitonic sort (12400 identical iterations)...
+
+2025-11-20 15:50:16
+Testing array length 64 (16384 arrays per batch)...
+Average time: 0.076991 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 128 (8192 arrays per batch)...
+Average time: 0.095731 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 256 (4096 arrays per batch)...
+Average time: 0.121132 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 512 (2048 arrays per batch)...
+Average time: 0.149616 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 1024 (1024 arrays per batch)...
+Average time: 0.180727 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 2048 (512 arrays per batch)...
+Average time: 0.212317 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 4096 (256 arrays per batch)...
+Average time: 0.271411 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 8192 (128 arrays per batch)...
+Average time: 0.341194 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 16384 (64 arrays per batch)...
+Average time: 0.421545 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 32768 (32 arrays per batch)...
+Average time: 0.512642 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 65536 (16 arrays per batch)...
+Average time: 0.616095 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 131072 (8 arrays per batch)...
+Average time: 0.740954 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 262144 (4 arrays per batch)...
+Average time: 0.850157 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 524288 (2 arrays per batch)...
+Average time: 0.989454 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 1048576 (1 arrays per batch)...
+Average time: 1.141979 ms
+
+sortingNetworks-bitonic, Throughput = 918.2092 MElements/s, Time = 0.00114 s, Size = 1048576 elements, NumDevsUsed = 1, Workgroup = 512
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+2025-11-20 15:51:41
+Shutting down...
+Application name: convolutionFFT2D
+[./convolutionFFT2D] - Starting...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+Testing updated custom R2C / C2R FFT-based convolution
+...allocating memory
+...generating random input data
+...creating C2C FFT plan for 2048 x 1024
+...uploading to GPU and padding convolution kernel and input data
+...transforming convolution kernel
+...running GPU FFT convolution: 
+2025-11-20 15:52:1
+2025-11-20 15:54:1
+Result 13352.197440 MPix/s (120130.039062 ms)
+...shutting down
+Test Summary: 0 errors
+Test passed
+Application name: transpose
+Transpose Starting...
+
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+> Device 0: "NVIDIA GeForce RTX 4070 Laptop GPU"
+> SM Capability 8.9 detected:
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+> [NVIDIA GeForce RTX 4070 Laptop GPU] has 36 MP(s) x 128 (Cores/MP) = 4608 (Cores)
+> Compute performance scaling factor = 1.00
+
+Matrix size: 1024x1024 (64x64 tiles), tile size: 16x16, block size: 16x16
+
+2025-11-20 15:54:22
+transpose optimized         , Throughput = 977.5710 GB/s, Time = 0.00799 ms, Size = 1048576 fp32 elements, NumDevsUsed = 1, Workgroup = 256
+2025-11-20 15:55:27
+Test passed
+Application name: bandwidthTest
+[CUDA Bandwidth Test] - Starting...
+Running on...
+
+ Device 0: NVIDIA GeForce RTX 4070 Laptop GPU
+ Quick Mode
+
+2025-11-20 15:55:48
+2025-11-20 16:1:59
+ Device to Device Bandwidth, 1 Device(s)
+ PINNED Memory Transfers
+   Transfer Size (Bytes)	Bandwidth(GB/s)
+   32000000			217.9
+
+Result = PASS
+
+NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.
+Application name: fastWalshTransform
+./fastWalshTransform Starting...
+
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+Initializing data...
+...allocating CPU memory
+...allocating GPU memory
+...generating data
+Data length: 8388608; kernel length: 128
+Running GPU dyadic convolution using Fast Walsh Transform...
+2025-11-20 16:2:20
+2025-11-20 16:5:28
+GPU time: 188276.500000 ms; GOP/s: 46.114142
+Shutting down...
+Application name: BlackScholes
+[./BlackScholes] - Starting...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+Initializing data...
+...allocating CPU memory for options.
+...allocating GPU memory for options.
+...generating input data in CPU mem.
+...copying input data to GPU mem.
+Data init done.
+
+2025-11-20 16:5:49
+Executing Black-Scholes GPU kernel (1024000 iterations)...
+2025-11-20 16:11:58
+Options count             : 8000000     
+BlackScholesGPU() time    : 0.360239 msec
+Effective memory bandwidth: 222.074882 GB/s
+Gigaoptions per second    : 22.207488     
+
+BlackScholes, Throughput = 22.2075 GOptions/s, Time = 0.00036 s, Size = 8000000 options, NumDevsUsed = 1, Workgroup = 128
+
+Reading back GPU results...
+Checking the results...
+...running CPU calculations.
+
+Comparing the results...
+L1 norm: 1.741792E-07
+Max absolute error: 1.192093E-05
+
+Shutting down...
+...releasing GPU memory.
+...releasing CPU memory.
+Shutdown done.
+
+[BlackScholes] - Test Summary
+
+NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.
+
+Test passed
+Application name: reductionMultiBlockCG
+reductionMultiBlockCG Starting...
+
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+33554432 elements
+numThreads: 1024
+numBlocks: 36
+2025-11-20 16:12:19
+
+Launching SinglePass Multi Block Cooperative Groups kernel
+2025-11-20 16:16:46
+Average time: 0.565257 ms
+Bandwidth:    237.445464 GB/s
+
+GPU result = 1.992401361465
+CPU result = 1.992401361465
+=====================================
+Iteration 1:
+Application name: transpose
+Transpose Starting...
+
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+> Device 0: "NVIDIA GeForce RTX 4070 Laptop GPU"
+> SM Capability 8.9 detected:
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+> [NVIDIA GeForce RTX 4070 Laptop GPU] has 36 MP(s) x 128 (Cores/MP) = 4608 (Cores)
+> Compute performance scaling factor = 1.00
+
+Matrix size: 1024x1024 (64x64 tiles), tile size: 16x16, block size: 16x16
+
+2025-11-20 16:17:7
+transpose optimized         , Throughput = 980.4419 GB/s, Time = 0.00797 ms, Size = 1048576 fp32 elements, NumDevsUsed = 1, Workgroup = 256
+2025-11-20 16:18:12
+Test passed
+Application name: convolutionFFT2D
+[./convolutionFFT2D] - Starting...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+Testing updated custom R2C / C2R FFT-based convolution
+...allocating memory
+...generating random input data
+...creating C2C FFT plan for 2048 x 1024
+...uploading to GPU and padding convolution kernel and input data
+...transforming convolution kernel
+...running GPU FFT convolution: 
+2025-11-20 16:18:32
+2025-11-20 16:20:29
+Result 13758.893670 MPix/s (116579.140625 ms)
+...shutting down
+Test Summary: 0 errors
+Test passed
+Application name: sortingNetworks
+./sortingNetworks Starting...
+
+Starting up CUDA context...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+Allocating and initializing host arrays...
+
+Allocating and initializing CUDA arrays...
+
+Running GPU bitonic sort (12400 identical iterations)...
+
+2025-11-20 16:20:49
+Testing array length 64 (16384 arrays per batch)...
+Average time: 0.075339 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 128 (8192 arrays per batch)...
+Average time: 0.095646 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 256 (4096 arrays per batch)...
+Average time: 0.121163 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 512 (2048 arrays per batch)...
+Average time: 0.149606 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 1024 (1024 arrays per batch)...
+Average time: 0.180825 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 2048 (512 arrays per batch)...
+Average time: 0.212238 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 4096 (256 arrays per batch)...
+Average time: 0.271234 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 8192 (128 arrays per batch)...
+Average time: 0.340905 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 16384 (64 arrays per batch)...
+Average time: 0.421025 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 32768 (32 arrays per batch)...
+Average time: 0.511779 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 65536 (16 arrays per batch)...
+Average time: 0.613221 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 131072 (8 arrays per batch)...
+Average time: 0.724921 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 262144 (4 arrays per batch)...
+Average time: 0.847545 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 524288 (2 arrays per batch)...
+Average time: 0.980552 ms
+
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+Testing array length 1048576 (1 arrays per batch)...
+Average time: 1.124017 ms
+
+sortingNetworks-bitonic, Throughput = 932.8824 MElements/s, Time = 0.00112 s, Size = 1048576 elements, NumDevsUsed = 1, Workgroup = 512
+...inspecting keys array: OK
+...inspecting keys and values array: OK
+...stability property: NOT stable
+
+2025-11-20 16:22:14
+Shutting down...
+Application name: cudaTensorCoreGemm
+Initializing...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+M: 4096 (16 x 256)
+N: 4096 (16 x 256)
+K: 4096 (16 x 256)
+Preparing data for GPU...
+Required shared memory size: 64 Kb
+2025-11-20 16:22:35
+Computing... using high performance kernel compute_gemm 
+loop 0
+loop 1000
+loop 2000
+loop 3000
+loop 4000
+loop 5000
+loop 6000
+loop 7000
+loop 8000
+loop 9000
+loop 10000
+loop 11000
+loop 12000
+loop 13000
+loop 14000
+loop 15000
+loop 16000
+loop 17000
+loop 18000
+loop 19000
+loop 20000
+loop 21000
+loop 22000
+loop 23000
+loop 24000
+loop 25000
+loop 26000
+loop 27000
+loop 28000
+loop 29000
+loop 30000
+loop 31000
+loop 32000
+loop 33000
+loop 34000
+loop 35000
+loop 36000
+loop 37000
+loop 38000
+loop 39000
+loop 40000
+loop 41000
+loop 42000
+loop 43000
+loop 44000
+loop 45000
+loop 46000
+loop 47000
+loop 48000
+loop 49000
+2025-11-20 16:26:38
+Time: 242732.250000 ms
+TFLOPS: 28.31
+cudaTensorCoreGemm test end.
+Application name: bandwidthTest
+[CUDA Bandwidth Test] - Starting...
+Running on...
+
+ Device 0: NVIDIA GeForce RTX 4070 Laptop GPU
+ Quick Mode
+
+2025-11-20 16:26:58
+2025-11-20 16:33:10
+ Device to Device Bandwidth, 1 Device(s)
+ PINNED Memory Transfers
+   Transfer Size (Bytes)	Bandwidth(GB/s)
+   32000000			217.9
+
+Result = PASS
+
+NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.
+Application name: BlackScholes
+[./BlackScholes] - Starting...
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+Initializing data...
+...allocating CPU memory for options.
+...allocating GPU memory for options.
+...generating input data in CPU mem.
+...copying input data to GPU mem.
+Data init done.
+
+2025-11-20 16:33:30
+Executing Black-Scholes GPU kernel (1024000 iterations)...
+2025-11-20 16:39:40
+Options count             : 8000000     
+BlackScholesGPU() time    : 0.360436 msec
+Effective memory bandwidth: 221.953325 GB/s
+Gigaoptions per second    : 22.195332     
+
+BlackScholes, Throughput = 22.1953 GOptions/s, Time = 0.00036 s, Size = 8000000 options, NumDevsUsed = 1, Workgroup = 128
+
+Reading back GPU results...
+Checking the results...
+...running CPU calculations.
+
+Comparing the results...
+L1 norm: 1.741792E-07
+Max absolute error: 1.192093E-05
+
+Shutting down...
+...releasing GPU memory.
+...releasing CPU memory.
+Shutdown done.
+
+[BlackScholes] - Test Summary
+
+NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.
+
+Test passed
+Application name: fastWalshTransform
+./fastWalshTransform Starting...
+
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+Initializing data...
+...allocating CPU memory
+...allocating GPU memory
+...generating data
+Data length: 8388608; kernel length: 128
+Running GPU dyadic convolution using Fast Walsh Transform...
+2025-11-20 16:40:0
+2025-11-20 16:43:8
+GPU time: 187962.156250 ms; GOP/s: 46.191262
+Shutting down...
+Application name: reductionMultiBlockCG
+reductionMultiBlockCG Starting...
+
+MapSMtoCores for SM 8.9 is undefined.  Default to use 128 Cores/SM
+MapSMtoArchName for SM 8.9 is undefined.  Default to use Ampere
+GPU Device 0: "Ampere" with compute capability 8.9
+
+33554432 elements
+numThreads: 1024
+numBlocks: 36
+2025-11-20 16:43:29
+
+Launching SinglePass Multi Block Cooperative Groups kernel
+2025-11-20 16:47:56
+Average time: 0.565480 ms
+Bandwidth:    237.352060 GB/s
+
+GPU result = 1.992401361465
+CPU result = 1.992401361465
